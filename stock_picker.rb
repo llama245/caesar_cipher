@@ -14,7 +14,7 @@ def stock_picker(prices)
   min_ar = array[0,maxt]
   miny = min_ar.min
 
-  final = [prices.find_index(miny.to_i), prices.find_index(maxy.to_i)]
+  final = [prices.find_index(miny), prices.find_index(maxy)]
 end
 
 
